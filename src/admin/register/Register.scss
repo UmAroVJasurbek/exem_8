@@ -1,0 +1,92 @@
+.register_container {
+  max-width: 355px;
+  margin: 0 auto;
+  font-family: "ABeeZee", sans-serif;
+  .register_text {
+    text-align: center;
+    h1 {
+      font-size: 30px;
+      margin-bottom: 174px;
+    }
+    p {
+      font-size: 14px;
+      span {
+        color: #3665f3;
+        cursor: pointer;
+      }
+      span:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .login_form_button:hover {
+    background-color: #3665f389;
+  }
+  width: 100%;
+  //   display: flex;
+  .register_form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    input,
+    button {
+      height: 40px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+    .register_form_input {
+      .register_form_icon {
+        padding-right: 20px;
+      }
+      input {
+        border: 0;
+      }
+      display: flex;
+      margin-right: 10px;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 355px;
+      border: 1px solid #00000069;
+
+      border-radius: 10px;
+
+      width: 100%;
+      background-color: #f5f5f5;
+    }
+    input {
+      padding-left: 12px;
+      background-color: #f5f5f5;
+      border: 1px solid #00000069;
+    }
+    button {
+      background-color: #c7c7c7;
+      color: #fff;
+      border: none;
+      border-radius: 16px;
+    }
+  }
+}
+
+.register {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.register_logo {
+  width: 140px;
+  height: 52px;
+}
+.register_text_span {
+  color: #3665f3;
+  cursor: pointer;
+}
+.register_text_span:hover {
+  text-decoration: underline;
+}
+.register_form_span {
+  color: #3665f3;
+  cursor: pointer;
+}
+.register_form_span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.embla {
+  overflow: hidden;
+  margin: auto;
+  height: 350px;
+  max-width: 1300px;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+.home_product_about {
+  display: flex;
+  width: 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img_api {
+  gap: 10px;
+  max-width: 290px;
+  height: 300px;
+  margin-top: 10px;
+  width: 100%;
+}
+.home_box {
+  max-width: 350px;
+  width: 100%;
+}
+.home_text_api_box {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}

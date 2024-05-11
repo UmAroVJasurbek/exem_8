@@ -1,0 +1,143 @@
+header {
+  max-width: 1480px;
+  //   height: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+.link_page {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header_container,
+.header_ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  padding: 0 auto;
+  align-items: center;
+  gap: 25px;
+}
+
+.header_ul_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  li {
+    color: #3665f3;
+  }
+}
+.header_container {
+  border-bottom: 1px solid #e5e5e5;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+
+  .header_select {
+    display: flex;
+    align-items: center;
+    border: none;
+    // padding-bottom: 5px;
+    outline: none;
+    font-size: 12px;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+.header_ul {
+  li {
+    list-style: none;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.header_button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  .header_icon {
+    color: #000;
+    font-size: 25px;
+  }
+}
+
+.header_logo_img {
+  width: 140px;
+  height: 52px;
+}
+
+.header_hero {
+  display: flex;
+  margin: 0 120px;
+  margin-top: 13px;
+  // border: 1px solid red;
+}
+.header_btn {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  width: 94px;
+  height: 42px;
+}
+
+.header_search {
+  display: flex;
+  align-items: center;
+  max-width: 770px;
+  height: 42px;
+  width: 100%;
+  border: 1px solid #000;
+
+  .header_search_icon {
+    padding: 0 15px;
+  }
+  input {
+    border: none;
+    max-width: 560px;
+    height: 42px;
+    width: 100%;
+  }
+  select {
+    width: 164px;
+    height: 42px;
+  }
+}
+
+.header_select_all_cotegoires {
+  max-width: 130px;
+  height: 44px;
+  width: 100%;
+  border: 1px solid #00000040;
+  padding-left: 8px;
+}
+.header_input {
+  outline: none;
+}
+.header_btn_search {
+  width: 173px;
+  height: 42px;
+  background-color: #3665f3;
+  border: 0;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.header_btn_adv {
+  max-width: 70px;
+  width: 100%;
+  border: 0;
+  font-size: 11px;
+  display: block;
+  opacity: 0.8;
+  padding: 0 10px;
+  height: 42px;
+
+  background-color: transparent;
+}

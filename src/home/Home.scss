@@ -1,0 +1,126 @@
+.home_container {
+  display: flex;
+  width: 1312px;
+  margin: 0 auto;
+  gap: 50px;
+  margin-top: 10px;
+  background: #feb786;
+}
+.shoes_box {
+  margin: 0 auto;
+  .shoes_box_title {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    .shoes_link {
+      color: #191919;
+      font-weight: 400;
+      font-size: 20px;
+      font-family: "aBeeZee", sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+  h2 {
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 120px;
+  }
+}
+.Electronics_box {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.Electronics_title {
+  font-size: 24px;
+  font-family: "aBeeZee", sans-serif;
+  font-style: italic;
+  color: #191919;
+  padding-left: 120px;
+}
+
+.Electronics_link {
+  color: #191919;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "aBeeZee", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.home_box {
+  max-width: 330px;
+  padding-left: 20px;
+}
+.home_title {
+  font-size: 36px;
+  font-family: "aBeeZee", sans-serif;
+  font-style: italic;
+  color: #5c1b05;
+}
+.home_text {
+  font-size: 17px;
+  font-family: "aBeeZee", sans-serif;
+  font-style: italic;
+  color: #5c1b05;
+}
+.home_button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 18px 12px 21px;
+  color: #5c1b05;
+  background: #feb786;
+  margin-bottom: 20px;
+  border: 1px solid #5c1b05;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "aBeeZee", sans-serif;
+  .home_button_icon {
+    width: 21px;
+    height: 21px;
+    color: #5c1b05;
+  }
+}
+
+.home_button_icon:hover {
+  color: #feb786;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.home_button:hover {
+  background: #5c1b05;
+  color: #feb786;
+  transition: 0.5s;
+}
+
+.home_images_box {
+  display: flex;
+}
+
+.home_text_api {
+  font-size: 17px;
+  margin-left: 50px;
+  font-family: "aBeeZee", sans-serif;
+  font-style: italic;
+  color: #5c1b05;
+}
+
+.home_text_api_price {
+  font-size: 27px;
+  margin-left: 50px;
+  font-family: "aBeeZee", sans-serif;
+  font-style: italic;
+  color: #5c1b05;
+}
