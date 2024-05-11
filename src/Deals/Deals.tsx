@@ -1,4 +1,3 @@
-import React from "react";
 import "./Deals.scss";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";

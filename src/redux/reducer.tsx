@@ -3,7 +3,7 @@ const likeReducer = (
   state = {
     likes: JSON.parse(localStorage.getItem("likedProducts") || "[]") || [],
   },
-  action
+  action: any
 ) => {
   switch (action.type) {
     case "like_product":

@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Header.scss";
 import { MdNotificationsNone } from "react-icons/md";
 import { CgShoppingCart } from "react-icons/cg";
-import { FaAngleDown } from "react-icons/fa6";
 import { IoIosSearch } from "react-icons/io";
 import { Link, useNavigate } from "react-router-dom";
 export const Header = () => {

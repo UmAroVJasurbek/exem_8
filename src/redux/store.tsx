@@ -8,7 +8,7 @@ const rootReducer = combineReducers({
 });
 
 // Middleware setup (if needed)
-const middleware = []; // Add your middleware here
+const middleware: any = []; // Add your middleware here
 
 // Compose enhancers including Redux DevTools Extension
 const composeEnhancers =

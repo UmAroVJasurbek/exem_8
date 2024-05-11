@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./CotegoryPage.scss";
 import { CiHeart } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import Like from "../../../like/Like";
 
 //
 const CotegoryPage = () => {
@@ -20,9 +19,8 @@ const CotegoryPage = () => {
 
       const res = await response.json();
       // **********||
-      const filteredClothes = res.filter(
-        (product: any) => product.category.name === "Shoes"
-      );
+
+      // res.filter((product: any) => product.category.name === "Shoes");
       setData(res);
       // setData(data);
     } catch (error) {
@@ -30,7 +28,7 @@ const CotegoryPage = () => {
     }
   };
 
-  const handleLikeProduct = (product) => {
+  const handleLikeProduct = (product: any) => {
     dispatch({ type: "like_product", product });
   };
 

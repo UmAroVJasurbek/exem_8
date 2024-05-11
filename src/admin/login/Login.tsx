@@ -1,5 +1,5 @@
 // export default Login;
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Login.scss";
 import { HiMiniPencil } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";

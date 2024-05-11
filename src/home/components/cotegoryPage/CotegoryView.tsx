@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./CotegoryPage.scss";
 import axios from "axios";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
 export const CotegoryView = () => {
-  const [data, setData] = useState<{ image: string }>({ images: "" });
-  const location = useLocation();
+  const [data, setData] = useState<any>({ image: "" });
+
   const { id } = useParams();
-  // console.log("location", location);
+
   useEffect(() => {
     // console.log("param",id);
     axios(`https://api.escuelajs.co/api/v1/products/${id}`).then((response) => {
@@ -24,7 +24,7 @@ export const CotegoryView = () => {
           <div className="cotegory_img_about">
             <p>
               {" "}
-              <span>Price:</span> {data.price}.00${" "}
+              <span>Price:</span> {data.price}.00$
             </p>
             <p>
               <span>Name:</span> {data.title}{" "}

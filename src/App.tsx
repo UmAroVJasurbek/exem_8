@@ -1,9 +1,7 @@
-import { useState } from "react";
-
 import "./App.css";
 import { Header } from "./header/Header";
 
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Nav } from "./nav/Nav";
 import Register from "./admin/register/Register";
 

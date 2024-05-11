@@ -1,4 +1,3 @@
-import { FaArrowRight } from "react-icons/fa6";
 import "./CarouselShoesItem.scss";
 export default function CarouselShoesItem({
   item,

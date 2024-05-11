@@ -1,5 +1,5 @@
 import "./Home.scss";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import CarouselShoesItem from "./components/CarouselShoesItem";
 import CarouselClothesItem from "./components/CarouselClothesItem";
 import CarouselElectronicsItem from "./components/CarouselElectronicsItem";
@@ -7,14 +7,13 @@ import { FaArrowRight } from "react-icons/fa6";
 import Carousel from "./components/Carousel";
 import { Deals } from "../Deals/Deals";
 import Footer from "../footer/Footer";
-import CotegoryPage from "./components/cotegoryPage/CotegoryPage";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
   const [clothes, setClothes] = useState<any[]>([]);
   const [electronics, setElectronics] = useState<any[]>([]);
   const [shoes, setShoes] = useState<any[]>([]);
-  const [cotegoryMobile, setcotegoryMobile] = useState<any[]>([]);
+  // const [cotegoryMobile, setcotegoryMobile] = useState<any[]>([]);
 
   useEffect(() => {
     fetchProducts();

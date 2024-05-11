@@ -1,4 +1,3 @@
-import { CiHeart } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa6";
 import "./Carousel.scss";
 export default function CarouselClothesItem({
